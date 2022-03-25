@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb3cb6b9-544a-4f9a-82cd-e0ba3f4ff0ed" name="Changes" comment="" />
+    <list default="true" id="fb3cb6b9-544a-4f9a-82cd-e0ba3f4ff0ed" name="Changes" comment="ApiMonitoring">
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/2/5/25a9a0608e314f0034ef892a120bec8b52c90a90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/2/a/2a679fb4f033289e30f5378b82ece72d93980b78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/7/f/7f617cadbbc161fc020296c3a971388d61795426" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/c/8c68b1bf8e9da03e21f0d2adee8712ea1a952430" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/9/8/98ee3e85018e9a13809ba60c7339769f6eff959a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/9/d/9d96d9b4d946489d0001828810e1a90e84ca6103" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/ApiMonitoring/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/ApiMonitoring/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/ApiMonitoring/KafkaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/ApiMonitoring/Kontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/ApiMonitoring/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/ApiMonitoring/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/templates/landing.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +30,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XML Properties File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,7 +54,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="26okzksMEhoV9xTG6sKyXpGjwYY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,8 +66,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user-service/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MockProject\user-service\src\main\resources" />
+      <recent name="D:\MockProject\user-service\src\main\java\ApiMonitoring" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,6 +86,29 @@
       <option name="presentableId" value="Default" />
       <updated>1648097593180</updated>
     </task>
+    <task id="LOCAL-00001" summary="ApiMonitoring">
+      <created>1648109015548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648109015548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ApiMonitoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="ApiMonitoring" />
   </component>
 </project>
