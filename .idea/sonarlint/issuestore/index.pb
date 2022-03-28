@@ -11,7 +11,7 @@ f
 6user-service/src/main/java/ApiMonitoring/Consumer.java,0\4\0436742810cec3dadf995dd69462aac7086b1ee8
 †
 Vauth-service/src/main/java/authenticationService/AuthenticationServiceApplication.java,9\8\98ee3e85018e9a13809ba60c7339769f6eff959a
-O
-auth-service/authServicePOM.iml,a\3\a32b446d3b4b76cd0ce9aa1e0292ae255ef7cbb5
 ƒ
 S.idea/shelf/Uncommitted_changes_before_Checkout_at_3_25_2022_10_38_AM__Changes_.xml,7\b\7b7dedb4d71a7ed81d411e464857db7c43dd2084
+9
+	MyApp.log,9\6\968bd47daa5d66287d8855efa5cfd794719ac0c8
