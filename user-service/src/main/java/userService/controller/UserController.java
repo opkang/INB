@@ -29,5 +29,10 @@ public class UserController {
         return userService.saveUser(user);
     }
 
+    @GetMapping("/")
+    public void test(){
+        log.info("This is Test");
+    }
+
 
 }
