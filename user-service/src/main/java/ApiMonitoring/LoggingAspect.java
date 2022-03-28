@@ -81,8 +81,6 @@ public class LoggingAspect {
                     logger.debug("New record added");
                 }
 
-
-
             } catch (Exception e) {
                 logger.error(e.getMessage());
             }

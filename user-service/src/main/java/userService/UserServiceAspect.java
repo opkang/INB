@@ -6,15 +6,20 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
 import org.aspectj.lang.JoinPoint;
+import userService.entity.User;
 
 @Slf4j
 @Aspect
 @Component
 public class UserServiceAspect {
 
-    @Before("execution(* userService.controller.UserController.test())")
-    public void beforeAddingUser(){
-        log.info("Before test");
+    //user(userID,firstName,lastName,email)
+    @Before("execution(* userService.controller.UserController.saveUser(User)), && args(user)")
+    public void beforeAddingUser(JoinPoint jp,User user){
+        log.info("User: " + user);
+        log.info("Before adding");
     }
+
+
 
 }
