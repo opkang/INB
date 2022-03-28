@@ -7,12 +7,10 @@
     <list default="true" id="32011628-710b-4133-a6a3-aa7e10fb744a" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/MyApp.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/MyApp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/ApiMonitoring/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/ApiMonitoring/LoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/UserServiceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/UserServiceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/ApiMonitoring/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/ApiMonitoring/LoggingAspect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/UserServiceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/UserServiceAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/entity/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648435775522</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1648443114480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648443114480</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
