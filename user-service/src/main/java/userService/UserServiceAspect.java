@@ -29,23 +29,22 @@ public class UserServiceAspect {
     }
 
     @Around("execution(* userService.controller.UserController.saveUser(..)) && args(user)")
-    public void beforeAddingUser(ProceedingJoinPoint pjp, User user){
+    public User beforeAddingUser(ProceedingJoinPoint pjp, User user){
         try {
             if(validateUser(user)){
                 log.info("User: " + user);
                 log.info("Before adding");
                 pjp.proceed();
             }
-        }catch (Exception e) {
-            log.info("Adding user Failed...");
+        }catch (Throwable e) {
+            log.error("Adding user Failed...");
             log.info("User: " + user);
             log.error("Reason : " + e.getMessage());
             log.error("Exception Detail : " + e.getLocalizedMessage());
-        } catch (Throwable e) {
-            e.printStackTrace();
         }
-
+        return user;
     }
+
     private boolean validateUser(User user){
         return !(user.getFirstName() == null || user.getFirstName().isEmpty() &&
                 user.getLastName() == null || user.getLastName().isEmpty() &&

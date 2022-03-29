@@ -29,6 +29,14 @@ public class UserController {
         return userService.saveUser(user);
     }
 
+/*    @DeleteMapping("/{id}")
+    public User deleteUser(@RequestBody int id){
+        log.info("Inside saveUser of UserService");
+        User user = userRepository.getById(Long.valueOf(id));
+        userRepository.delete(user);
+        return user;
+    }*/
+
     @GetMapping("/")
     public void test(){
         log.info("This is Test");
