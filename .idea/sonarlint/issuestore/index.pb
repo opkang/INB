@@ -23,8 +23,6 @@ t
 D.idea/libraries/Maven__org_springframework_spring_aspects_5_3_15.xml,0\a\0a6dd5707f85d100619a89eaa59f75442a35a066
 Å
 Q.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_3.xml,2\4\24bfd9adfd236bddc02b7b9ee08a9b9d76104df2
-O
-user-service/userServicePOM.iml,d\f\dfb503e9d134b6abd2568ba6e450f77a7baea37e
 Ü
 V.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_5.xml,e\f\efe7c514052aa49de804e17a5cd2e84d41481df8
 g
