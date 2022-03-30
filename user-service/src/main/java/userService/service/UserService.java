@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import userService.entity.User;
@@ -24,9 +25,9 @@ public class UserService {
         return userRepository.save(user);
     }
 
-/*    @DeleteMapping("/")
-    public User deleteUser(@RequestBody int id){
-        log.info("Inside saveUser of UserService");
+/*    @DeleteMapping("/{id}")
+    public User deleteUser(@PathVariable int id){
+        log.info("Inside deleteUser of UserService");
         User user = userRepository.getById(Long.valueOf(id));
         userRepository.delete(user);
         return user;

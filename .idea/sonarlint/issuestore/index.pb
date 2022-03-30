@@ -15,8 +15,6 @@ Vauth-service/src/main/java/authenticationService/AuthenticationServiceApplicati
 S.idea/shelf/Uncommitted_changes_before_Checkout_at_3_25_2022_10_38_AM__Changes_.xml,7\b\7b7dedb4d71a7ed81d411e464857db7c43dd2084
 9
 	MyApp.log,9\6\968bd47daa5d66287d8855efa5cfd794719ac0c8
-S
-#user-service/MyApp-2022-03-27.0.log,5\3\537e74876e7c7267ebf211dfddddc85b6faeca67
 O
 auth-service/authServicePOM.iml,a\3\a32b446d3b4b76cd0ce9aa1e0292ae255ef7cbb5
 y

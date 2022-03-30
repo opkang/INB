@@ -8,16 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="userServicePOM" />
         <module name="authServicePOM" />
+        <module name="PDFBox" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="authServicePOM" target="1.8" />
       <module name="MockProject" target="1.8" />
+      <module name="PDFBox" target="1.8" />
       <module name="userServicePOM" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PDFBox" options="-parameters" />
       <module name="authServicePOM" options="-parameters" />
       <module name="userServicePOM" options="-parameters" />
     </option>
