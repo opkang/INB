@@ -1,3 +1,4 @@
+userService\Interface\IUser.class
 ApiMonitoring\LoggingAspect.class
 userService\UserServiceAspect.class
 ApiMonitoring\Kontroller.class
@@ -6,6 +7,8 @@ userService\repository\UserRepository.class
 ApiMonitoring\Company.class
 userService\service\UserService.class
 userService\controller\UserController.class
+userService\service\PDFGenerateService.class
+userService\controller\PDFGenerateController.class
 userService\UserServiceApplication.class
 ApiMonitoring\KafkaController.class
 ApiMonitoring\Consumer.class

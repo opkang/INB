@@ -1,0 +1,348 @@
+2022-03-29 12:37:52,934 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 11.0.9 on LAPTOP-IUAVTCQU with PID 6632 (C:\Users\User\Desktop\Hitachi\INB\user-service\target\classes started by OPKANG in C:\Users\User\Desktop\Hitachi\INB\user-service)
+2022-03-29 12:37:52,938 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-03-29 12:37:52,995 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 12:37:52,995 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 12:37:53,510 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 12:37:53,565 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-03-29 12:37:54,281 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 12:37:54,290 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 12:37:54,290 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-03-29 12:37:54,291 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-29 12:37:54,376 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-03-29 12:37:54,377 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1381 ms
+2022-03-29 12:37:54,529 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-03-29 12:37:54,689 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-03-29 12:37:54,728 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 12:37:54,781 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-29 12:37:54,941 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 12:37:55,049 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-29 12:37:55,463 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 12:37:55,472 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 12:37:55,819 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 12:37:56,218 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-03-29 12:37:56,227 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 12:37:56,250 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 12:37:56,258 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 3.627 seconds (JVM running for 4.182)
+2022-03-29 12:38:05,556 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 12:38:05,659 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=dfg, lastName=wodoi, email=cggw@gmail.com)
+2022-03-29 12:38:05,660 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:38:05,667 [http-nio-8080-exec-2] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:38:05,671 [http-nio-8080-exec-2] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:38:05,737 [http-nio-8080-exec-2] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 12:38:05,737 [http-nio-8080-exec-2] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(cggw@gmail.com) already exists.
+2022-03-29 12:38:05,750 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 12:38:05,751 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=dfg, lastName=wodoi, email=cggw@gmail.com)
+2022-03-29 12:38:05,751 [http-nio-8080-exec-2] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:38:05,751 [http-nio-8080-exec-2] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:38:33,674 [http-nio-8080-exec-3] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=4444, lastName=wod555oi, email=55555@gmail.com)
+2022-03-29 12:38:33,674 [http-nio-8080-exec-3] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:38:33,674 [http-nio-8080-exec-3] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:38:33,674 [http-nio-8080-exec-3] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:38:43,479 [http-nio-8080-exec-4] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=4444, lastName=wod555oi, email=55555@gmail.com)
+2022-03-29 12:38:43,480 [http-nio-8080-exec-4] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:38:43,480 [http-nio-8080-exec-4] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:38:43,480 [http-nio-8080-exec-4] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:38:43,483 [http-nio-8080-exec-4] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 12:38:43,484 [http-nio-8080-exec-4] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(55555@gmail.com) already exists.
+2022-03-29 12:38:43,486 [http-nio-8080-exec-4] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 12:38:43,487 [http-nio-8080-exec-4] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=4444, lastName=wod555oi, email=55555@gmail.com)
+2022-03-29 12:38:43,487 [http-nio-8080-exec-4] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:38:43,488 [http-nio-8080-exec-4] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:39:45,538 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 12:39:45,543 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-03-29 12:39:45,551 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-03-29 12:39:54,544 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 11.0.9 on LAPTOP-IUAVTCQU with PID 12472 (C:\Users\User\Desktop\Hitachi\INB\user-service\target\classes started by OPKANG in C:\Users\User\Desktop\Hitachi\INB\user-service)
+2022-03-29 12:39:54,546 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-03-29 12:39:54,586 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 12:39:54,586 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 12:39:55,060 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 12:39:55,104 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-03-29 12:39:55,807 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 12:39:55,815 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 12:39:55,816 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-03-29 12:39:55,817 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-29 12:39:55,913 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-03-29 12:39:55,914 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1327 ms
+2022-03-29 12:39:56,054 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-03-29 12:39:56,171 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-03-29 12:39:56,206 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 12:39:56,243 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-29 12:39:56,363 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 12:39:56,461 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-29 12:39:56,834 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 12:39:56,842 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 12:39:57,130 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 12:39:57,521 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-03-29 12:39:57,531 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 12:39:57,544 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 12:39:57,553 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 3.287 seconds (JVM running for 3.815)
+2022-03-29 12:41:22,422 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 12:41:22,542 [http-nio-8080-exec-1] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=4444, lastName=wod555oi, email=55555@gmail.com)
+2022-03-29 12:41:22,544 [http-nio-8080-exec-1] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:22,561 [http-nio-8080-exec-1] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:22,565 [http-nio-8080-exec-1] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:41:22,620 [http-nio-8080-exec-1] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 12:41:22,621 [http-nio-8080-exec-1] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(55555@gmail.com) already exists.
+2022-03-29 12:41:22,636 [http-nio-8080-exec-1] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 12:41:22,637 [http-nio-8080-exec-1] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=4444, lastName=wod555oi, email=55555@gmail.com)
+2022-03-29 12:41:22,637 [http-nio-8080-exec-1] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:22,637 [http-nio-8080-exec-1] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:32,067 [http-nio-8080-exec-3] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=42, lastName=324, email=43@gmail.com)
+2022-03-29 12:41:32,067 [http-nio-8080-exec-3] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:32,067 [http-nio-8080-exec-3] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:32,067 [http-nio-8080-exec-3] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:41:42,326 [http-nio-8080-exec-4] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:42,326 [http-nio-8080-exec-4] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:42,327 [http-nio-8080-exec-4] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:42,327 [http-nio-8080-exec-4] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:41:44,110 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:44,110 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:44,110 [http-nio-8080-exec-5] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:44,110 [http-nio-8080-exec-5] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:41:44,112 [http-nio-8080-exec-5] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 12:41:44,112 [http-nio-8080-exec-5] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(433@gmail.com) already exists.
+2022-03-29 12:41:44,113 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 12:41:44,113 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:44,114 [http-nio-8080-exec-5] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:44,114 [http-nio-8080-exec-5] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:44,946 [http-nio-8080-exec-6] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:44,946 [http-nio-8080-exec-6] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:44,946 [http-nio-8080-exec-6] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:44,947 [http-nio-8080-exec-6] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:41:44,948 [http-nio-8080-exec-6] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 12:41:44,948 [http-nio-8080-exec-6] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(433@gmail.com) already exists.
+2022-03-29 12:41:44,950 [http-nio-8080-exec-6] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 12:41:44,950 [http-nio-8080-exec-6] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:44,950 [http-nio-8080-exec-6] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:44,950 [http-nio-8080-exec-6] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:45,506 [http-nio-8080-exec-7] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:45,506 [http-nio-8080-exec-7] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:45,506 [http-nio-8080-exec-7] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:45,507 [http-nio-8080-exec-7] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:41:45,508 [http-nio-8080-exec-7] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 12:41:45,508 [http-nio-8080-exec-7] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(433@gmail.com) already exists.
+2022-03-29 12:41:45,510 [http-nio-8080-exec-7] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 12:41:45,510 [http-nio-8080-exec-7] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=423, lastName=3324, email=433@gmail.com)
+2022-03-29 12:41:45,510 [http-nio-8080-exec-7] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:45,510 [http-nio-8080-exec-7] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 12:41:49,515 [http-nio-8080-exec-8] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=3, lastName=333324, email=433333@gmail.com)
+2022-03-29 12:41:49,515 [http-nio-8080-exec-8] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 12:41:49,516 [http-nio-8080-exec-8] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 12:41:49,516 [http-nio-8080-exec-8] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 12:42:45,051 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 12:42:45,054 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-03-29 12:42:45,062 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-03-29 14:05:24,428 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 11.0.9 on LAPTOP-IUAVTCQU with PID 24488 (C:\Users\User\Desktop\Hitachi\INB\user-service\target\classes started by OPKANG in C:\Users\User\Desktop\Hitachi\INB\user-service)
+2022-03-29 14:05:24,430 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-03-29 14:05:24,477 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 14:05:24,477 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 14:05:24,887 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 14:05:24,923 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-03-29 14:05:25,502 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 14:05:25,510 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 14:05:25,511 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-03-29 14:05:25,512 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-29 14:05:25,599 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-03-29 14:05:25,600 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1122 ms
+2022-03-29 14:05:25,764 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-03-29 14:05:25,880 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-03-29 14:05:25,912 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 14:05:25,952 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-29 14:05:26,063 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 14:05:26,141 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-29 14:05:26,478 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 14:05:26,486 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 14:05:26,738 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 14:05:27,078 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-03-29 14:05:27,088 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 14:05:27,100 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 14:05:27,108 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 2.938 seconds (JVM running for 3.411)
+2022-03-29 14:05:29,903 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 14:05:29,993 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=3, lastName=333324, email=433333@gmail.com)
+2022-03-29 14:05:29,994 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 14:05:30,002 [http-nio-8080-exec-2] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 14:05:30,005 [http-nio-8080-exec-2] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 14:05:30,050 [http-nio-8080-exec-2] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 14:05:30,050 [http-nio-8080-exec-2] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(433333@gmail.com) already exists.
+2022-03-29 14:05:30,064 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 14:05:30,065 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=3, lastName=333324, email=433333@gmail.com)
+2022-03-29 14:05:30,065 [http-nio-8080-exec-2] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 14:05:30,065 [http-nio-8080-exec-2] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 14:32:49,747 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 14:32:49,750 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-03-29 14:32:49,756 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-03-29 15:27:43,682 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 11.0.9 on LAPTOP-IUAVTCQU with PID 22124 (C:\Users\User\Desktop\Hitachi\INB\user-service\target\classes started by OPKANG in C:\Users\User\Desktop\Hitachi\INB\user-service)
+2022-03-29 15:27:43,684 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-03-29 15:27:43,727 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 15:27:43,727 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 15:27:44,149 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 15:27:44,186 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-03-29 15:27:44,843 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 15:27:44,850 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 15:27:44,851 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-03-29 15:27:44,851 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-29 15:27:44,984 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-03-29 15:27:44,985 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1257 ms
+2022-03-29 15:27:45,163 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-03-29 15:27:45,283 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-03-29 15:27:45,315 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 15:27:45,350 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-29 15:27:45,458 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 15:27:45,541 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-29 15:27:45,922 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 15:27:45,930 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:27:46,196 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 15:27:46,547 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-03-29 15:27:46,556 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 15:27:46,568 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 15:27:46,577 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 3.16 seconds (JVM running for 3.645)
+2022-03-29 15:28:01,233 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:28:01,320 [http-nio-8080-exec-1] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=Cheah, lastName=Wooi Kang, email=CWK@gmail.com)
+2022-03-29 15:28:01,321 [http-nio-8080-exec-1] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 15:28:01,331 [http-nio-8080-exec-1] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 15:28:01,335 [http-nio-8080-exec-1] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 15:29:16,308 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:29:16,312 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-03-29 15:29:16,320 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-03-29 15:29:25,041 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 11.0.9 on LAPTOP-IUAVTCQU with PID 14656 (C:\Users\User\Desktop\Hitachi\INB\user-service\target\classes started by OPKANG in C:\Users\User\Desktop\Hitachi\INB\user-service)
+2022-03-29 15:29:25,043 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-03-29 15:29:25,091 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 15:29:25,091 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 15:29:25,584 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 15:29:25,627 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-03-29 15:29:26,266 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 15:29:26,274 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 15:29:26,274 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-03-29 15:29:26,275 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-29 15:29:26,369 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-03-29 15:29:26,369 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1277 ms
+2022-03-29 15:29:26,497 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-03-29 15:29:26,609 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-03-29 15:29:26,640 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 15:29:26,674 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-29 15:29:26,768 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 15:29:26,849 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-29 15:29:27,174 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 15:29:27,181 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:29:27,438 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 15:29:27,867 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-03-29 15:29:27,877 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 15:29:27,889 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 15:29:27,897 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 3.13 seconds (JVM running for 3.609)
+2022-03-29 15:29:31,362 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:29:31,395 [http-nio-8080-exec-2] INFO  userService.controller.UserController              - Inside deleteUser of UserController
+2022-03-29 15:29:31,398 [http-nio-8080-exec-2] INFO  userService.service.UserService                    - Inside deleteUser of UserService
+2022-03-29 15:29:31,560 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: userService.entity.User$HibernateProxy$0IGJme7B["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: userService.entity.User$HibernateProxy$0IGJme7B["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1518)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-29 17:07:14,441 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 11.0.9 on LAPTOP-IUAVTCQU with PID 8272 (C:\Users\User\Desktop\Hitachi\INB\user-service\target\classes started by OPKANG in C:\Users\User\Desktop\Hitachi\INB\user-service)
+2022-03-29 17:07:14,443 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-03-29 17:07:14,494 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-29 17:07:14,495 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-29 17:07:15,058 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 17:07:15,111 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-03-29 17:07:15,840 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-03-29 17:07:15,848 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-29 17:07:15,849 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-03-29 17:07:15,849 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-29 17:07:15,951 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-03-29 17:07:15,951 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1456 ms
+2022-03-29 17:07:16,115 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-03-29 17:07:16,323 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-03-29 17:07:16,373 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 17:07:16,438 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-29 17:07:16,625 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 17:07:16,734 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-29 17:07:17,190 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 17:07:17,200 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 17:07:17,521 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 17:07:17,960 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-03-29 17:07:17,975 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-29 17:07:18,003 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 17:07:18,013 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 3.88 seconds (JVM running for 4.455)
+2022-03-29 17:08:03,677 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 17:08:03,772 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=Cheah, lastName=WooiKang, email=CWK@gmail.com)
+2022-03-29 17:08:03,772 [http-nio-8080-exec-2] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 17:08:03,781 [http-nio-8080-exec-2] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 17:08:03,784 [http-nio-8080-exec-2] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 17:09:14,400 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=Cheah, lastName=WooiKang, email=CWK@gmail.com)
+2022-03-29 17:09:14,400 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - Before adding
+2022-03-29 17:09:14,401 [http-nio-8080-exec-5] INFO  userService.controller.UserController              - Inside saveUser of UserController
+2022-03-29 17:09:14,401 [http-nio-8080-exec-5] INFO  userService.service.UserService                    - Inside saveUser of UserService
+2022-03-29 17:09:14,460 [http-nio-8080-exec-5] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 23505
+2022-03-29 17:09:14,460 [http-nio-8080-exec-5] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - ERROR: duplicate key value violates unique constraint "users_email_key"
+  Detail: Key (email)=(CWK@gmail.com) already exists.
+2022-03-29 17:09:14,472 [http-nio-8080-exec-5] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-03-29 17:09:14,472 [http-nio-8080-exec-5] INFO  userService.UserServiceAspect                      - User: User(userID=null, firstName=Cheah, lastName=WooiKang, email=CWK@gmail.com)
+2022-03-29 17:09:14,472 [http-nio-8080-exec-5] ERROR userService.UserServiceAspect                      - Reason : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 17:09:14,473 [http-nio-8080-exec-5] ERROR userService.UserServiceAspect                      - Exception Detail : could not execute statement; SQL [n/a]; constraint [users_email_key]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-03-29 17:20:11,037 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 17:20:11,043 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-03-29 17:20:11,050 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

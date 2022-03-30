@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32011628-710b-4133-a6a3-aa7e10fb744a" name="Changes" comment="commit" />
+    <list default="true" id="32011628-710b-4133-a6a3-aa7e10fb744a" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/Interface/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/MyApp.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/MyApp.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/userServicePOM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServicePOM.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,6 +63,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Hitachi\INB" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="userService.service" />
+      <recent name="userService.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Application.UserServiceApplication">
@@ -184,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648610367234</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1648610499244</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648610499244</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
