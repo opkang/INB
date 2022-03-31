@@ -3,6 +3,7 @@ package userService.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import userService.Interface.IUser;
 import userService.entity.User;
 import userService.service.PDFGenerateService;
 import userService.service.UserService;
@@ -28,14 +29,19 @@ public class PDFGenerateController {
 
         String headerKey = "Content-Disposition";
 
-        String headerValue = "attachment; filename =pdf_" + current + ".pdf";
+        String headerValue = "attachment; filename =User List" + ".pdf";
         response.setHeader(headerKey,headerValue);
 
         List<User> listUsers = service.listAll();
 
         PDFGenerateService exporter = new PDFGenerateService(listUsers);
 
-        exporter.export(response);
+        exporter.exportBox(response);
+    }
+
+    @GetMapping("/pdf/convert")
+    public void convertPDF_CSV(){
+        PDF_Text_CSV ptc = new PDF_Text_CSV("User List");
     }
 
 }

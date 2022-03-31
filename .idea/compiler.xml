@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="userServicePOM" />
-        <module name="authServicePOM" />
         <module name="PDFBox" />
+        <module name="authServicePOM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="authServicePOM" target="1.8" />
+      <module name="INBPrototypeCode" target="1.8" />
       <module name="MockProject" target="1.8" />
       <module name="PDFBox" target="1.8" />
       <module name="userServicePOM" target="1.8" />
