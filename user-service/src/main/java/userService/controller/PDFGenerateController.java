@@ -3,7 +3,6 @@ package userService.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import userService.Interface.IUser;
 import userService.entity.User;
 import userService.service.PDFGenerateService;
 import userService.service.UserService;
