@@ -37,7 +37,12 @@ public class PDF_Text_CSV {
             File outFile = new File(newPath);
             PDDocument document = PDDocument.load(inputFile);
             PDFTextStripper stripper = new PDFTextStripper();
-            stripper.writeText(document, new FileWriter(outFile));
+
+            FileWriter txtFile = new FileWriter(outFile);
+            String inputText = stripper.getText(document);
+            txtFile.write(inputText);
+            txtFile.close();
+            document.close();
             return outFile;
         } catch (IOException e) {
             throw new FailedException(e);
@@ -52,9 +57,9 @@ public class PDF_Text_CSV {
             PrintWriter writer = new PrintWriter(outFile);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                String result = convertLineToCSV(line);
-                if (result != null)
-                    writer.println(result);
+                //String result = convertLineToCSV(line);
+                if (line != null)
+                    writer.println(line);
             }
             writer.close();
             return outFile;
@@ -73,6 +78,7 @@ public class PDF_Text_CSV {
     }
     private String convertLineToCSV(String line) {
         String[] fields = line.split("\\s+");
+
         if (fields.length < 10)
             return null;
         StringBuilder builder = new StringBuilder();
