@@ -5,19 +5,37 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import userService.Interface.IUser;
 import userService.entity.User;
 import userService.repository.UserRepository;
 
+import java.util.List;
+
 @Service
 @Slf4j
-public class UserService {
+public class UserService implements IUser {
 
     @Autowired
-    private UserRepository userREPO;
+    private UserRepository userRepository;
 
     @PostMapping("/")
     public User saveUser(@RequestBody User user){
         log.info("Inside saveUser of UserService");
-        return userREPO.save(user);
+        return userRepository.save(user);
     }
+
+    @Override
+    public List<User> listAll() {
+        return userRepository.findAll();
+    }
+
+/*    @DeleteMapping("/{id}")
+    public User deleteUser(@PathVariable int id){
+        log.info("Inside deleteUser of UserService");
+        User user = userRepository.getById(Long.valueOf(id));
+        userRepository.delete(user);
+        return user;
+    }*/
+
+
 }

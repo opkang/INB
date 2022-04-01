@@ -1,0 +1,33 @@
+
+\	java:S112ˆ"FDefine and throw a dedicated exception instead of using a generic one.(¾Ë’ñ
+\	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(¾Ë’ñ
+\	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¾Ë’ñ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(òŸ¬úÿÿÿÿ
+8
+java:S1118"Hide this public constructor.(·š™¿şÿÿÿÿ
+h	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Š®áıÿÿÿÿ
+7	java:S1314""Add a default case to this switch.(İ¤É®
+c	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¶ Ì
+c	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¡È
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òŸ¬úÿÿÿÿ
+i	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üÕÓÿÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(÷âæéûÿÿÿÿ
+?	java:S108É")Either remove or fill this block of code.(”ı¾
+]
+java:S1128"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ
+^
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş
+G
+java:S1128"1Remove this unused import 'java.text.DateFormat'.(÷Œá¼
+M
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+K
+java:S1128
+"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
+a
+java:S13014"KReplace this "switch" statement by "if" statements to increase readability.(İ¤É®
+?
+java:S2629%"$Invoke method(s) only conditionally.(¦‹Ç°øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡õ›‚øÿÿÿÿ

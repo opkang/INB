@@ -1,0 +1,26 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã§îÅüÿÿÿÿ
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨ŒîA
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢éªô
+v	java:S116("\Rename this field "POSTGRES_DATABASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ëî‹üÿÿÿÿ
+q	java:S116+"WRename this field "POSTGRES_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êã¦ˆùÿÿÿÿ
+<
+java:S1170("!Make this final field static too.(¯Ëî‹üÿÿÿÿ
+<
+java:S1170+"!Make this final field static too.(Êã¦ˆùÿÿÿÿ
+F
+java:S3416"0Update this logger to use "LoggingAspect.class".(¸«Ù„
+D
+java:S1481;")Remove this unused "data" local variable.(îÃ·þÿÿÿÿ
+V	java:S125O"<This block of commented-out lines of code should be removed.(­ âÍþÿÿÿÿ
+W
+java:S3457f"AFormat specifiers should be used instead of string concatenation.(€¿Ìé
+Y
+java:S1128"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú
+K
+java:S1068+"0Remove this unused "POSTGRES_URL" private field.(Êã¦ˆùÿÿÿÿ
+M
+java:S2629f"7Use the built-in formatting to construct this argument.(€¿Ìé
+:
+java:S2629q"$Invoke method(s) only conditionally.(Ã¿‰Ù
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡õ›‚øÿÿÿÿ

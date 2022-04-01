@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="userServicePOM" />
+        <module name="PDFBox" />
+        <module name="authServicePOM" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="authServicePOM" target="1.8" />
+      <module name="INBPrototypeCode" target="1.8" />
       <module name="MockProject" target="1.8" />
+      <module name="PDFBox" target="1.8" />
+      <module name="userServicePOM" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PDFBox" options="-parameters" />
+      <module name="authServicePOM" options="-parameters" />
+      <module name="userServicePOM" options="-parameters" />
+    </option>
   </component>
 </project>
