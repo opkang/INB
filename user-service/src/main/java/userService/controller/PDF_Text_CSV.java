@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public class PDF_Text_CSV {
 
     public PDF_Text_CSV(String pdfName){
-        File inputFile = new File("C:\\Users\\User\\Downloads\\" + pdfName + ".pdf");
+        File inputFile = new File("C:\\Users\\Calvin\\Downloads\\" + pdfName + ".pdf");
         if(inputFile.exists()){
             System.out.println("Input File:"+inputFile.getAbsolutePath());
 
@@ -76,31 +76,31 @@ public class PDF_Text_CSV {
             super(e);
         }
     }
-    private String convertLineToCSV(String line) {
-        String[] fields = line.split("\\s+");
-
-        if (fields.length < 10)
-            return null;
-        StringBuilder builder = new StringBuilder();
-        for (int i = 10; i >= 1; i--) {
-            if (i < 10)
-                builder.append("|");
-            builder.append(fields[fields.length - i].replace(",", ""));
-        }
-        String result = builder.toString();
-        if (isQuoteLine(result))
-            return result;
-        return null;
-    }
-
-    private static boolean isQuoteLine(String line) {
-        String pattern = "[A-Z0-9]+" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
-                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
-                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
-                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
-                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\(?\\d+(\\.\\d+)?\\)?)?";
-        return Pattern.matches(pattern, line);
-    }
+//    private String convertLineToCSV(String line) {
+//        String[] fields = line.split("\\s+");
+//
+//        if (fields.length < 10)
+//            return null;
+//        StringBuilder builder = new StringBuilder();
+//        for (int i = 10; i >= 1; i--) {
+//            if (i < 10)
+//                builder.append("|");
+//            builder.append(fields[fields.length - i].replace(",", ""));
+//        }
+//        String result = builder.toString();
+//        if (isQuoteLine(result))
+//            return result;
+//        return null;
+//    }
+//
+//    private static boolean isQuoteLine(String line) {
+//        String pattern = "[A-Z0-9]+" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
+//                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
+//                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
+//                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\d+(\\.\\d+)?)?"
+//                + "\\|(\\-)?(\\d+(\\.\\d+)?)?" + "\\|(\\-)?(\\(?\\d+(\\.\\d+)?\\)?)?";
+//        return Pattern.matches(pattern, line);
+//    }
 
     private static String replaceSuffix(String fileName, String suffix) {
         int index = fileName.indexOf('.', 0);
