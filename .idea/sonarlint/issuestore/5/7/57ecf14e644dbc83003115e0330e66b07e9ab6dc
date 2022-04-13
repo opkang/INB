@@ -26,6 +26,20 @@ java:S1128
 "0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
 H
 java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½°ñûÿÿÿÿ8ŸÚúå0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß…ãşÿÿÿÿ8 Úúå0
+r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ğƒÀøÿÿÿÿ8 Úúå0
+m	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‘­8 Úúå0
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Š®áıÿÿÿÿ8 Úúå0
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Š®áıÿÿÿÿ8¡Úúå0
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Š®áıÿÿÿÿ8¡Úúå0
+m	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ìëÃ8¡Úúå0
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ıÈÈıÿÿÿÿ8¡Úúå0
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¶ Ì8¢Úúå0
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¶ Ì8¢Úúå0
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¶ Ì8¢Úúå0
+m	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¡È8¢Úúå0
+m	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¡È8£Úúå0
 a
 java:S13014"KReplace this "switch" statement by "if" statements to increase readability.(İ¤É®
 ?

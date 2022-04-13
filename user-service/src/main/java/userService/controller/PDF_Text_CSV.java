@@ -12,6 +12,10 @@ import java.util.regex.Pattern;
 @Slf4j
 public class PDF_Text_CSV {
 
+    public PDF_Text_CSV(){
+
+    }
+
     public PDF_Text_CSV(String pdfName){
         File inputFile = new File("C:\\Users\\User\\Downloads\\" + pdfName + ".pdf");
         if(inputFile.exists()){
@@ -44,6 +48,8 @@ public class PDF_Text_CSV {
             txtFile.close();
             document.close();
             return outFile;
+        }  catch (FileNotFoundException e) {
+            throw new FailedException(e);
         } catch (IOException e) {
             throw new FailedException(e);
         }
