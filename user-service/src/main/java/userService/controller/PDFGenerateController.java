@@ -8,6 +8,7 @@ import org.supercsv.io.ICsvBeanWriter;
 import org.supercsv.prefs.CsvPreference;
 import userService.Interface.IUser;
 import userService.entity.User;
+import userService.service.CSVGenerateService;
 import userService.service.PDFGenerateService;
 import userService.service.UserService;
 
@@ -55,21 +56,10 @@ public class PDFGenerateController {
 
         response.setHeader(headerKey,headerValue);
 
-            List<User> listUsers = service.listAll();
-        ICsvBeanWriter csvWriter=new CsvBeanWriter(response.getWriter(), CsvPreference.STANDARD_PREFERENCE);
+        List<User> listUsers = service.listAll();
+        CSVGenerateService exporterCSV=new CSVGenerateService(listUsers);
+        exporterCSV.exportCSV(response);
 
-        String[] header ={"ID","First Name","Last Name","Email"};
-        String[] field_mapping ={"userid","firstname","lastname","email"};
-
-        csvWriter.writeHeader(header);
-
-        for(User user : listUsers){
-            csvWriter.write(user,field_mapping);
-        }
-        csvWriter.close();
-//        PDF_Text_CSV exporter = new PDF_Text_CSV(listUsers);
-//        PDF_Text_CSV ptc = new PDF_Text_CSV(listUsers);
-//        PDF_Text_CSV ptc = new PDF_Text_CSV("User List");
     }
 
 }

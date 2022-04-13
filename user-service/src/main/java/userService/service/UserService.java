@@ -29,13 +29,7 @@ public class UserService implements IUser {
         return userRepository.findAll();
     }
 
-/*    @DeleteMapping("/{id}")
-    public User deleteUser(@PathVariable int id){
-        log.info("Inside deleteUser of UserService");
-        User user = userRepository.getById(Long.valueOf(id));
-        userRepository.delete(user);
-        return user;
-    }*/
+
 
 
 }

@@ -5,100 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32011628-710b-4133-a6a3-aa7e10fb744a" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_supercsv_super_csv_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/0034cb51cb58ec6e44267807be1d5ee24026d220" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/004156783b75a9ebc30bdd95297fbff2cbe6f632" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02e6f567cbaa800cb0d670dcf0e49039c4fe9dcc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13130a7b99b0663fecdc8cac361f89fc34c0a3cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18285e019a9b3fcd638b5a906a61f5bbe2d12800" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19025f3a46895c33158a31e62e60185c6552de57" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bbd8aca5e925bf24d620ab320ce81b00612091f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/234456c75a71116a6aa6d5c09fe57d3dfc0545f2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bd698fca5bbdee9a2e52a9e28ce49e233b42260" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/335252d2ad2c65cd480ecc4b9bda21e7bd258930" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/351a40848b76f3aec59cf6a36bb54143d09e013b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37bc7ae5a47031941484c1b6bd219c3303eb8fe6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d17c46a5177474f72868cf95498ec6d7267c3ea" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/414e9e746438614b82cf9fd53d00f781cdced7c9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44d97c2c52636e5c4f8e25ad40e87875a1dbf04a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/4776c5cfa2aaf74f079ecc9f867d0fd4bbaafee4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49220cf1db38c80c6b205dd596d1364fba8f739a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4952d04bc0c7a88c829b7017cb4e164265f4763f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5be072ebde5783012bb18bb38ec13a58026d7783" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c4d7a3ac19dbde1b9aa414d250ce2e9a597de86" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ecce45fe1284dbb6c8ce2fb24ca9ad809233848" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60074b555f3c3cf0e4887ea843323eb6fb8b25a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60700f8a6aed4564a155f50b3b03334502e1284b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60878c932fc5732f5a3e503087c0ff0086562ce9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/695b0af1ceb40e0c6db0294c55fb7930ece9c671" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6ff2bdc35cc1066f1126a4c4d571d6cb5951c661" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7444e8ca9602d279b03532e11f0ead05b4d154d3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7798d060d7514c02aa3e2b1e1b28e258d71bc7fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b7080863358138b61f1f5be31093acf25e11f3b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c5ad8ea3682abc1e44587c8e342f6032c50d9c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80bd976d0361c481d4338a23bbff383c64c71804" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81e91a8f7cab86c5f19647d7f8ca6a86bfb4e6f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8495e1844a2a11f15035bfdbfc0da265d60b5a42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86ecfa620594dc7b1922a7bc46c2a3b30c4e1134" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c71c13912cd60a61dd550a5fe58e4c6f9ce9df2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a73940720cf46f86a36ef9ae1a772b9359cb5fd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a32b446d3b4b76cd0ce9aa1e0292ae255ef7cbb5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a470d482f781e47654eb4de09dc33c271c0d85be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a52d935621c0e8f5df1c9c700b922282c907b5e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a668f0b8f9e9612ccb42eda33f8a405a6518e36c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a82765c0d8fc17a9bce407e67702bab34a271028" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa7617ce8b31a1d9f94f36e984b1f66ed1765147" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aade4624af35acddecca7566a7ecfe56185a4f19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac2fe83a84bca04c91bb648ede8765701382eeca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b214e3047414a577277b473511eef9575f779be7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b24b0e62ac85eb45b22fee6c91529bbe7f19449a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3df4ec16fb8298923d19afead6ef144daef19ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb890c792e331561dc765b63f73415d7f40919dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1cd5b1b2c10215d78c1ff21ba8923e64fcfdeb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c64c686f7cc44f7ebf077c894f82bdc9f35d5916" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c77b4b3af0e444bd5db55eac71a69673c1f9ed93" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdb87a5153f785533fc0302c67161d70d6767a04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0cb594991e98de8ecc382f0ca1d2ec76c43bca2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4f513afe587d7f68e5ae190e0ff46943d4c0abf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5998491f3d4cfee83c0786e9007784a16bf1b0a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc7240dfdf6a9e174c6e153655c87c8634ce16e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9edbb6d2e7eea4826e248c7253d0476a49bbf27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea3613e7ab92c0aac2ea2c46014fac0a1a644622" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f11c1eb0e39d850142644641de7447cd0f07b734" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6293cd0754e0c1910a7aead5ed6635725e155fb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f731059ef8b1ea65ff274531365fbeef4b6dee0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f858656a63958a140e808518b6dc8cd4adfc693c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb72ecf15b69184286ff1ced381a48437e44a470" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe0200c6a1d782c25855624d704caf364d7c4064" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fed637f746f16749e97cb2b0b08e49f5efb5f7a7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fee93f39e238b3065d9a013994b4704beebe2a79" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffd0ce38aa2efcd64e829023e95f2948ed6ac2e1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_25_2022_10_42_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_25_2022_10_42_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_25_2022_10_54_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_25_2022_10_54_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2022_10_39_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2022_10_39_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a679fb4f033289e30f5378b82ece72d93980b78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a953d757a631f5c5511b14294bffe79c5af682f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b7dedb4d71a7ed81d411e464857db7c43dd2084" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2f5d1978e5f519100a679c4109f89296278badc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/111d11031b429086bb1fe71d1374ab5f7acd1043" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/111d11031b429086bb1fe71d1374ab5f7acd1043" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApp.log" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/MyApp.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/MyApp.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/PDFGenerateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/PDFGenerateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/PDF_Text_CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/PDF_Text_CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/ApiMonitoring/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/ApiMonitoring/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/ApiMonitoring/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/ApiMonitoring/LoggingAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/UserServiceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/UserServiceAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/PDF_Text_CSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/service/PDFGenerateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/service/PDFGenerateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/controller/PDFGenerateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/controller/PDFGenerateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/controller/PDF_Text_CSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/controller/PDF_Text_CSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/service/PDFGenerateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/service/PDFGenerateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/controller/PDF_Text_CSV$FailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/controller/PDF_Text_CSV.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/userServicePOM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServicePOM.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +32,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -154,6 +76,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PDFBox" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -164,12 +89,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Hitachi\INB" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="userService.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="userService.service" />
       <recent name="userService.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="JUnit.UserServiceTest.saveUser">
     <configuration name="AuthenticationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="authenticationService.AuthenticationServiceApplication" />
       <module name="authServicePOM" />
@@ -192,6 +123,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="userServicePOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userService.service" />
+      <option name="MAIN_CLASS_NAME" value="userService.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="userServicePOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userService.service" />
+      <option name="MAIN_CLASS_NAME" value="userService.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="saveUser(userService.entity.User)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,6 +198,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.saveUser" />
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="Application.UserServiceApplication" />
         <item itemvalue="Application.AuthenticationServiceApplication" />
       </list>
@@ -341,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648700681920</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1">
+      <created>1649641911600</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1649641911600</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,6 +330,12 @@
     <MESSAGE value="commit" />
     <MESSAGE value="ws" />
     <MESSAGE value="added pdfBox PDF_Text_CSV" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pdfBox PDF_Text_CSV" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MockProject$UserServiceApplication.ic" NAME="UserServiceApplication Coverage Results" MODIFIED="1649662606970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>userService.*</FILTER>
+    </SUITE>
   </component>
 </project>

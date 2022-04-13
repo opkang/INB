@@ -50,18 +50,18 @@ public class PDFGenerateService {
 
 
         for (User user : listUsers) {
-            contentStream.showText("ID: "+String.valueOf(user.getUserID()));
+            contentStream.showText("ID: "+user.getUserID());
             contentStream.newLine();
-            contentStream.showText("First Name: "+String.valueOf(user.getFirstName()));
+            contentStream.showText("First Name: "+user.getFirstName());
             contentStream.newLine();
-            contentStream.showText("Last Name: "+String.valueOf(user.getLastName()));
+            contentStream.showText("Last Name: "+user.getLastName());
             contentStream.newLine();
-            contentStream.showText("Email: "+String.valueOf(user.getEmail()));
+            contentStream.showText("Email: "+user.getEmail());
             contentStream.newLine();
             contentStream.newLine();
         }
         contentStream.setFont(PDType1Font.TIMES_BOLD,13);
-        contentStream.showText("Total users: "+String.valueOf(listUsers.size()));
+        contentStream.showText("Total users: "+listUsers.size());
         contentStream.endText();
         contentStream.close();
 
