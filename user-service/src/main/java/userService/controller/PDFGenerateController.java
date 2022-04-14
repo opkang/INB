@@ -28,8 +28,6 @@ public class PDFGenerateController {
     @GetMapping("/pdf/generate")
     public void generatePDF(HttpServletResponse response) throws IOException {
         response.setContentType("application/pdf");
-//        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd:hh:mm:ss");
-//        String current = dateFormat.format(new Date());
 
         String headerKey = "Content-Disposition";
 
@@ -42,12 +40,6 @@ public class PDFGenerateController {
 
         exporter.exportBox(response);
     }
-
-//    @GetMapping("/pdf/convert")
-//    public void convertPDF_CSV(){
-//        PDF_Text_CSV ptc = new PDF_Text_CSV("User List");
-//    }
-
     @GetMapping("/pdf/convert")
     public void convertPDF_CSV(HttpServletResponse response) throws IOException{
         response.setContentType("application/octet-stream");

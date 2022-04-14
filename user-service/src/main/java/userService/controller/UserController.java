@@ -25,20 +25,10 @@ public class UserController {
 
     @PostMapping("/")
     public User saveUser(@RequestBody User user){
-        log.info("Inside saveUser of UserController");
+
         return userService.saveUser(user);
     }
-/*
-    @DeleteMapping("/{id}")
-    public User deleteUser(@PathVariable int id){
-        log.info("Inside deleteUser of UserController");
-        return userService.deleteUser(id);
-    }*/
 
-    @GetMapping("/")
-    public void test(){
-        log.info("This is Test");
-    }
 
 
 }
