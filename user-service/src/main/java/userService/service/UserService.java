@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import userService.Interface.IUser;
 import userService.entity.User;
-import userService.repository.UserRepository;
+import userService.service.repository.UserRepository;
 
 import java.util.List;
 

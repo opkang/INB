@@ -5,7 +5,6 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
 import org.aspectj.lang.JoinPoint;
 import userService.entity.User;
@@ -16,8 +15,8 @@ import userService.entity.User;
 public class UserServiceAspect {
     @AfterThrowing(value = "execution(* userService.*.*.*(..))", throwing = "error")
     public void afterThrowingAdvice(JoinPoint jp, Throwable error){
-        System.out.println("Method Signature: "  + jp.getSignature());
-        System.out.println("Exception: "+error);
+        log.error("Method Signature: "  + jp.getSignature());
+        log.error("Exception: "+error);
     }
 
     @Around("execution(* userService.controller.UserController.saveUser(..)) && args(user)")
@@ -37,10 +36,4 @@ public class UserServiceAspect {
     }
 
     public boolean validateUser(User user){
-        return !(user.getFirstName() == null || user.getFirstName().isEmpty() &&
-                user.getLastName() == null || user.getLastName().isEmpty() &&
-                user.getEmail() == null || user.getEmail().isEmpty());
-    }
-
-
-}
+        return !(user.getFirstName() == null || user.getFirstName().isEmpty() && user.getLastName() == null || user.getLastName().isEmpty() && user.getEmail() == null || user.getEmail().isEmpty());}}

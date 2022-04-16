@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32011628-710b-4133-a6a3-aa7e10fb744a" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/560aeb2f66372d5d7748ce81d1caf6801b5461b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c68b1bf8e9da03e21f0d2adee8712ea1a952430" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/authServicePOM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/authServicePOM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/MyApp.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/MyApp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/UserServiceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/UserServiceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/service/PDFGenerateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/service/PDFGenerateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/service/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/userService/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/userService/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/UserServiceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/UserServiceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/service/PDFGenerateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/service/PDFGenerateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/userServicePOM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userServicePOM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/userService/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/userService/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -106,33 +100,19 @@
       <recent name="userService.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceAspectTest">
-    <configuration name="CSVGenerateServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in userServicePOM (1)">
+    <configuration name="All in userServicePOM (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="userServicePOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userService.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userService.service" />
-      <option name="MAIN_CLASS_NAME" value="userService.service.CSVGenerateServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in userServicePOM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="userServicePOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userService" />
-      <option name="MAIN_CLASS_NAME" value="userService.UserServiceApplicationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in userServicePOM (1)" />
         <item itemvalue="JUnit.UserServiceAspectTest" />
+        <item itemvalue="JUnit.All in userServicePOM" />
         <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.CSVGenerateServiceTest" />
-        <item itemvalue="JUnit.UserServiceApplicationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649911409832</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1">
+      <created>1650126105471</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650126105471</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +372,7 @@
     <SUITE FILE_PATH="coverage/MockProject$PDFGenerateServiceTest.ic" NAME="PDFGenerateServiceTest Coverage Results" MODIFIED="1649993065353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>userService.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MockProject$All_in_userServicePOM.ic" NAME="All in userServicePOM Coverage Results" MODIFIED="1649923586551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MockProject$All_in_userServicePOM.ic" NAME="All in userServicePOM Coverage Results" MODIFIED="1650126337241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MockProject$userService_in_userServicePOM.ic" NAME="userService in userServicePOM Coverage Results" MODIFIED="1649911186803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>userService.*</FILTER>
     </SUITE>
@@ -395,7 +382,7 @@
     <SUITE FILE_PATH="coverage/MockProject$UserControllerTest_testSaveUser.ic" NAME="UserControllerTest.testSaveUser Coverage Results" MODIFIED="1649907325743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>userService.controller.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MockProject$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1650125858799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/MockProject$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1650125906021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>userService.entity.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MockProject$LoggingAspectTest.ic" NAME="LoggingAspectTest Coverage Results" MODIFIED="1649920768946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -407,7 +394,7 @@
     <SUITE FILE_PATH="coverage/MockProject$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1650124957029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>userService.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MockProject$UserServiceAspectTest.ic" NAME="UserServiceAspectTest Coverage Results" MODIFIED="1650124486185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/MockProject$UserServiceAspectTest.ic" NAME="UserServiceAspectTest Coverage Results" MODIFIED="1650126501487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>userService.*</FILTER>
     </SUITE>
   </component>
