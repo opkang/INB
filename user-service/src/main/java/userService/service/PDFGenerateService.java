@@ -21,6 +21,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+import static org.apache.pdfbox.pdmodel.font.PDType1Font.TIMES_BOLD;
+
 @Slf4j
 public class PDFGenerateService {
 
@@ -41,7 +43,7 @@ public class PDFGenerateService {
 
         contentStream.beginText();
         contentStream.newLineAtOffset(25,page.getTrimBox().getHeight()-25);
-        contentStream.setFont(PDType1Font.TIMES_BOLD,25);
+        contentStream.setFont(TIMES_BOLD,25);
         contentStream.setLeading(16.0f);
         contentStream.showText("User List");
         contentStream.newLine();
@@ -60,7 +62,7 @@ public class PDFGenerateService {
             contentStream.newLine();
             contentStream.newLine();
         }
-        contentStream.setFont(PDType1Font.TIMES_BOLD,13);
+        contentStream.setFont(TIMES_BOLD,13);
         contentStream.showText("Total users: "+listUsers.size());
         contentStream.endText();
         contentStream.close();

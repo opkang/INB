@@ -14,14 +14,6 @@ import userService.entity.User;
 @Aspect
 @Component
 public class UserServiceAspect {
-
-    //user(userID,firstName,lastName,email)
- /*   @Before("execution(* userService.controller.UserController.saveUser(..)) && args(user)")
-    public void beforeAddingUser(JoinPoint jp,User user){
-        log.info("User: " + user);
-        log.info("Before adding");
-    }*/
-
     @AfterThrowing(value = "execution(* userService.*.*.*(..))", throwing = "error")
     public void afterThrowingAdvice(JoinPoint jp, Throwable error){
         System.out.println("Method Signature: "  + jp.getSignature());
@@ -40,14 +32,15 @@ public class UserServiceAspect {
             log.error("Adding user Failed...");
             log.info("User: " + user);
             log.error("Reason : " + e.getMessage());
-            log.error("Exception Detail : " + e.getLocalizedMessage());
-        }
+            log.error("Exception Detail : " + e.getLocalizedMessage());}
         return user;
     }
 
-    private boolean validateUser(User user){
+    public boolean validateUser(User user){
         return !(user.getFirstName() == null || user.getFirstName().isEmpty() &&
                 user.getLastName() == null || user.getLastName().isEmpty() &&
                 user.getEmail() == null || user.getEmail().isEmpty());
     }
+
+
 }

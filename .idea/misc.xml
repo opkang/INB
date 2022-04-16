@@ -6,7 +6,6 @@
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/../PDFBox/pom.xml" />
-        <option value="$PROJECT_DIR$/PDFBox/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
