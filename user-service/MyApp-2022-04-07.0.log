@@ -1,0 +1,228 @@
+2022-04-07 16:43:33,194 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 1.8.0_321 on Spinax with PID 27140 (D:\MockProject\user-service\target\classes started by Calvin in D:\MockProject\user-service)
+2022-04-07 16:43:33,199 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-04-07 16:43:33,241 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-07 16:43:33,241 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-07 16:43:34,131 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 16:43:34,232 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2022-04-07 16:43:35,672 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:43:35,681 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:43:35,682 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-07 16:43:35,683 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-07 16:43:35,779 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-07 16:43:35,779 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2537 ms
+2022-04-07 16:43:35,921 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-07 16:43:36,607 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-07 16:43:36,739 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 16:43:36,820 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-04-07 16:43:37,002 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:43:37,177 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-04-07 16:43:38,047 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:43:38,062 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 16:43:38,471 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 16:43:38,946 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-04-07 16:43:38,959 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:43:38,981 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:43:38,989 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 6.16 seconds (JVM running for 6.766)
+2022-04-07 16:44:08,867 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 16:44:09,115 [http-nio-8080-exec-2] INFO  userService.service.PDFGenerateService             - This are User In DB: [User(userID=34, firstName=Nicole, lastName=Chong, email=Nicole@gmail.com), User(userID=35, firstName=Calvin, lastName=Tan, email=CT@gmail.com), User(userID=36, firstName=Kelvin, lastName=Lim, email=KL@gmail.com), User(userID=37, firstName=Kok, lastName=Chun, email=KC@gmail.com), User(userID=38, firstName=Euvina, lastName=Lim, email=EL@gmail.com), User(userID=39, firstName=Wooi, lastName=Kang, email=WK@gmail.com)]
+2022-04-07 16:44:09,399 [http-nio-8080-exec-2] WARN  o.a.p.p.font.FileSystemFontProvider                - New fonts found, font cache will be re-built
+2022-04-07 16:44:09,399 [http-nio-8080-exec-2] WARN  o.a.p.p.font.FileSystemFontProvider                - Building on-disk font cache, this may take a while
+2022-04-07 16:44:09,534 [http-nio-8080-exec-2] ERROR o.a.p.p.font.FileSystemFontProvider                - Could not load font file: C:\WINDOWS\FONTS\mstmc.ttf
+java.io.EOFException: null
+	at org.apache.fontbox.ttf.TTFDataStream.readUnsignedInt(TTFDataStream.java:151)
+	at org.apache.fontbox.ttf.TTFParser.readTableDirectory(TTFParser.java:312)
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:139)
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:87)
+	at org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFont(FileSystemFontProvider.java:638)
+	at org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.scanFonts(FileSystemFontProvider.java:359)
+	at org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.<init>(FileSystemFontProvider.java:338)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl$DefaultFontProvider.<clinit>(FontMapperImpl.java:140)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.getProvider(FontMapperImpl.java:159)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFont(FontMapperImpl.java:423)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFontBoxFont(FontMapperImpl.java:386)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFontBoxFont(FontMapperImpl.java:360)
+	at org.apache.pdfbox.pdmodel.font.PDType1Font.<init>(PDType1Font.java:146)
+	at org.apache.pdfbox.pdmodel.font.PDType1Font.<clinit>(PDType1Font.java:79)
+	at userService.service.PDFGenerateService.exportBox(PDFGenerateService.java:44)
+	at userService.controller.PDFGenerateController.generatePDF(PDFGenerateController.java:39)
+	at userService.controller.PDFGenerateController$$FastClassBySpringCGLIB$$f8094b95.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at userService.controller.PDFGenerateController$$EnhancerBySpringCGLIB$$df271b22.generatePDF(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-07 16:44:09,684 [http-nio-8080-exec-2] WARN  o.a.p.p.font.FileSystemFontProvider                - Finished building on-disk font cache, found 566 fonts
+2022-04-07 16:45:42,767 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 16:45:42,771 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-04-07 16:45:42,777 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-04-07 16:53:09,541 [restartedMain] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 1.8.0_321 on Spinax with PID 10688 (D:\MockProject\user-service\target\classes started by Calvin in D:\MockProject\user-service)
+2022-04-07 16:53:09,543 [restartedMain] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-04-07 16:53:09,577 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-07 16:53:09,578 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-07 16:53:10,006 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 16:53:10,051 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-04-07 16:53:10,876 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:53:10,882 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:53:10,883 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-07 16:53:10,883 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-07 16:53:10,945 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-07 16:53:10,945 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1367 ms
+2022-04-07 16:53:11,058 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-07 16:53:11,562 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-07 16:53:11,656 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 16:53:11,692 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-04-07 16:53:11,805 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 16:53:11,914 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-04-07 16:53:12,309 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 16:53:12,319 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 16:53:12,635 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 16:53:13,045 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-04-07 16:53:13,058 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:53:13,075 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:53:13,084 [restartedMain] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 3.8 seconds (JVM running for 4.24)
+2022-04-07 16:53:49,767 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 16:53:49,910 [http-nio-8080-exec-1] INFO  userService.service.PDFGenerateService             - This are User In DB: [User(userID=34, firstName=Nicole, lastName=Chong, email=Nicole@gmail.com), User(userID=35, firstName=Calvin, lastName=Tan, email=CT@gmail.com), User(userID=36, firstName=Kelvin, lastName=Lim, email=KL@gmail.com), User(userID=37, firstName=Kok, lastName=Chun, email=KC@gmail.com), User(userID=38, firstName=Euvina, lastName=Lim, email=EL@gmail.com), User(userID=39, firstName=Wooi, lastName=Kang, email=WK@gmail.com)]
+2022-04-07 16:53:50,102 [http-nio-8080-exec-1] WARN  o.a.p.p.font.FileSystemFontProvider                - New fonts found, font cache will be re-built
+2022-04-07 16:53:50,103 [http-nio-8080-exec-1] WARN  o.a.p.p.font.FileSystemFontProvider                - Building on-disk font cache, this may take a while
+2022-04-07 16:53:50,181 [http-nio-8080-exec-1] ERROR o.a.p.p.font.FileSystemFontProvider                - Could not load font file: C:\WINDOWS\FONTS\mstmc.ttf
+java.io.EOFException: null
+	at org.apache.fontbox.ttf.TTFDataStream.readUnsignedInt(TTFDataStream.java:151)
+	at org.apache.fontbox.ttf.TTFParser.readTableDirectory(TTFParser.java:312)
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:139)
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:87)
+	at org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.addTrueTypeFont(FileSystemFontProvider.java:638)
+	at org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.scanFonts(FileSystemFontProvider.java:359)
+	at org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.<init>(FileSystemFontProvider.java:338)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl$DefaultFontProvider.<clinit>(FontMapperImpl.java:140)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.getProvider(FontMapperImpl.java:159)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFont(FontMapperImpl.java:423)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.findFontBoxFont(FontMapperImpl.java:386)
+	at org.apache.pdfbox.pdmodel.font.FontMapperImpl.getFontBoxFont(FontMapperImpl.java:360)
+	at org.apache.pdfbox.pdmodel.font.PDType1Font.<init>(PDType1Font.java:146)
+	at org.apache.pdfbox.pdmodel.font.PDType1Font.<clinit>(PDType1Font.java:79)
+	at userService.service.PDFGenerateService.exportBox(PDFGenerateService.java:44)
+	at userService.controller.PDFGenerateController.generatePDF(PDFGenerateController.java:39)
+	at userService.controller.PDFGenerateController$$FastClassBySpringCGLIB$$f8094b95.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at userService.controller.PDFGenerateController$$EnhancerBySpringCGLIB$$2611e055.generatePDF(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-07 16:53:50,221 [http-nio-8080-exec-1] WARN  o.a.p.p.font.FileSystemFontProvider                - Finished building on-disk font cache, found 566 fonts
+2022-04-07 16:58:02,068 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 16:58:02,071 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-04-07 16:58:02,073 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

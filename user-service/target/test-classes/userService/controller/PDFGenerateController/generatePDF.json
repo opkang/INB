@@ -1,0 +1,11 @@
+{
+	"HttpServletResponse":{},
+	"List<User>":[
+		{
+			"userID":1,
+			"firstName":"test",
+			"lastName":"test",
+			"email":"test"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+2022-04-16 23:30:32,052 [main] INFO  userService.UserServiceApplication                 - Starting UserServiceApplication using Java 1.8.0_321 on Spinax with PID 23664 (started by Calvin in D:\MockProject\user-service)
+2022-04-16 23:30:32,060 [main] INFO  userService.UserServiceApplication                 - No active profile set, falling back to default profiles: default
+2022-04-16 23:30:33,142 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-16 23:30:33,220 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2022-04-16 23:30:34,527 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-04-16 23:30:34,539 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-16 23:30:34,539 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-16 23:30:34,539 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-16 23:30:34,709 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-16 23:30:34,709 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2559 ms
+2022-04-16 23:30:35,046 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-16 23:30:35,770 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-16 23:30:35,849 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-16 23:30:36,000 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-04-16 23:30:36,340 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-16 23:30:36,596 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-04-16 23:30:37,338 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-16 23:30:37,349 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-16 23:30:38,131 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-16 23:30:39,216 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-16 23:30:39,241 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-16 23:30:39,251 [main] INFO  userService.UserServiceApplication                 - Started UserServiceApplication in 7.783 seconds (JVM running for 9.238)
+2022-04-16 23:30:39,649 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-16 23:30:39,652 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-04-16 23:30:39,660 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-04-16 23:37:43,985 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:37:43,988 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:37:43,988 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:37:43,988 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:37:43,989 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:37:43,989 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:46:30,499 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:46:30,501 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:46:30,501 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:46:30,501 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:46:30,501 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:46:30,501 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:47:29,886 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:47:29,890 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:47:29,890 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:47:29,890 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:47:29,890 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:47:29,890 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:47:59,277 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:47:59,280 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:47:59,280 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:47:59,280 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:47:59,280 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:47:59,280 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:50:37,387 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:50:37,390 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:50:37,390 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:50:37,390 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:50:37,391 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:50:37,391 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:51:50,853 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:51:50,856 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:51:50,856 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:51:50,856 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:51:50,857 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:51:50,857 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:53:40,834 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:53:40,837 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:53:40,838 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:53:40,838 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:53:40,838 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:53:40,838 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:54:48,105 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:54:48,108 [main] INFO  userService.UserServiceAspect                      - Before adding
+2022-04-16 23:54:48,108 [main] ERROR userService.UserServiceAspect                      - Adding user Failed...
+2022-04-16 23:54:48,108 [main] INFO  userService.UserServiceAspect                      - User: User(userID=1, firstName=firstName, lastName=lastName, email=email)
+2022-04-16 23:54:48,108 [main] ERROR userService.UserServiceAspect                      - Reason : null
+2022-04-16 23:54:48,108 [main] ERROR userService.UserServiceAspect                      - Exception Detail : null
+2022-04-16 23:54:56,992 [main] INFO  userService.service.UserService                    - Inside saveUser of UserService
